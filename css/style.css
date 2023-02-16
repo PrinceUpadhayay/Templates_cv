@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    padding: 0 50px;
+}
+
+.main-conatiner-left{
+    width: 30%;
+    margin: 16px 20px;
+    /* background-color: red; */
+}
+
+/* profile section start here */
+.profile-container{
+    position: relative;
+    /* border: 2px solid red; */
+}
+.profile-conatiner-image{
+    position: relative;
+}
+.profile-container-image img{
+    /* border: 2px solid green; */
+    width: 100%;
+}
+.profile-head{
+    position: absolute;
+    margin-top: 55%;
+    padding: 10px;
+    font-size: 20px;
+}
+.profile-head-content{
+    /* border: 2px solid black; */
+    padding: 5px 0px;
+}
+.profile-head-content p{
+    color: #757575;
+    /* border: 2px solid black; */
+    padding: 5px 10px;
+}
+.profile-head-content p i{
+    color: #009688;
+    /* border: 2px solid black; */
+    padding: 0 10px;
+}
+.profile-container hr{
+    opacity: 0.2;
+}
+/* profile section end here */
+
+  /* skill section start here */
+ .skill-section {
+    padding: 10px 5px;
+    /* border: 2px solid red; */
+}
+
+.skill-section h2 {
+    color: #757575;
+    margin-bottom: 15px;
+}
+.skill-section i{
+    color: #009688;
+}
+
+.skill-section p {
+    padding: 15px 0;
+    color: #757575;
+    width: 100%;
+    text-align: justify;
+}
+
+.skill-conatiner {
+    background-color: #f1f1f1;
+    border-radius: 16px;
+}
+
+.skill-90 {
+    width: 95%;
+    color:white;
+    background-color: #009688;
+    text-align: center;
+    border-radius: 10px 10px;
+}
+
+.skill-80 {
+    width: 80%;
+    color: white;
+    background-color: #009688;
+    text-align: center;
+    border-radius: 10px 10px;
+}
+
+.skill-75 {
+    width: 75%;
+    color: white;
+    background-color: #009688;
+    text-align: center;
+    border-radius: 10px 10px;
+
+}
+.skill-50{
+    width: 50%;
+    color: white;
+    background-color: #009688;
+    text-align: center;
+    border-radius: 10px 10px;
+}
+/* skill section end here */
+
+/* language start here */
+
+.language-section {
+    padding: 10px 5px;
+    /* border: 2px solid red; */
+}
+
+.language-section h2 {
+    color: #757575;
+    margin-bottom: 15px;
+}
+.language-section i{
+    color: #009688;
+}
+
+.language-section p {
+    padding: 10px 0;
+    color: #757575;
+    width: 100%;
+    text-align: justify;
+}
+
+.language-conatiner {
+    background-color: #f1f1f1;
+    border-radius: 16px;
+}
+ 
+ .language-100 {
+    /* width: %; */
+    color:#009688;
+    background-color: #009688;
+    text-align: center;
+    border-radius: 10px 10px;
+} 
+
+.language-55{
+    width:55%;
+    color: #009688;
+    background-color: #009688;
+    text-align: center;
+    border-radius: 10px 10px;
+}
+
+.language-25 {
+    width: 25%;
+    color: #009688;
+    background-color: #009688;
+    text-align: center;
+    border-radius: 10px 10px;
+}
+/* language end here */
+
+/* main container right start here */
+
+.main-conatiner-right{
+    width: 70%;
+    margin: 16px 0px;
+    /* background-color: green; */
+}
+.workexperience-conatiner-head{
+    padding:  20px;
+    font-size: 30px;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+.workexperience-conatiner-head i{
+    color: #009688;
+    /* padding: 0 10px; */
+}
+.workexperience-conatiner-content{
+    padding: 0px 15px ;
+}
+
+.workexperience-conatiner-content h2{
+    padding:0 15px ;
+    color: #757575;
+    font-size: 20px;
+
+}
+.workexperience-conatiner-content i{
+    padding: 10px 15px ;
+    /* margin-top: 10px; */
+}
+.workexperience-conatiner-content button {
+    background-color: #009688;
+    color: white;
+    padding: 2px 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.workexperience-conatiner-content h3{
+    padding: 10px 0 ;
+    /* margin-top: 10px; */
+    color: #009688;
+}
+.workexperience-conatiner-content p{
+    padding: 0 15px ;
+    
+}.workexperience-conatiner-content hr{
+    margin-top: 20px;
+    opacity: 0.2;
+    margin-bottom: 20px;
+}
+/* workexperience end here */
+
+/* education start here */
+
+.education-container{
+    margin-top: 20px;
+    /* background-color: blue; */
+}
+.education-container-head{
+    padding:  20px;
+    font-size: 30px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.education-container-head i{
+    color: #009688;
+}
+.education-container-content{
+    padding: 0px 15px ;
+}
+.education-container-content h2{
+    padding:0 15px ;
+    color: #757575;
+    font-size: 20px;
+}
+.education-container-content i{
+    padding: 10px 15px ;
+    /* margin-top: 10px; */
+}
+
+.education-container-content h3{
+    padding: 10px 0 ;
+    color: #009688;
+}
+.education-container-content p{
+    padding: 0 15px ;
+    
+}
+.education-container-content hr{
+    margin-top: 20px;
+    opacity: 0.2;
+    margin-bottom: 20px;
+}
+/* education end here */
+
+/* footerbar start here */
+.footer-bar{
+    text-align: center;
+    margin-top: 16px;
+    background-color: #009688;
+    color: white;
+    padding: 20px;
+}
+.footer-bar p{
+    padding: 10px 0;
+    font-size: 15px;
+}
+.footer-bar i{
+    font-size: 15px;
+}
+.footer-bar i:hover{
+    opacity: 0.60;
+    cursor: pointer;
+}
+.footer-bar a{
+    color: white;
+}
+
+/* footerbar end here */
