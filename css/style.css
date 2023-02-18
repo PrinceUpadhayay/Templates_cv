@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
 
 .main-container{
     display: flex;
@@ -11,41 +16,42 @@
 
 .main-conatiner-left{
     width: 30%;
-    margin: 16px 20px;
-    /* background-color: red; */
+    margin: 16px 20px 50px;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.profile-content-container{
+    padding: 0 16px;
 }
 
-/* profile section start here */
 .profile-container{
     position: relative;
-    /* border: 2px solid red; */
 }
 .profile-conatiner-image{
     position: relative;
 }
 .profile-container-image img{
-    /* border: 2px solid green; */
     width: 100%;
 }
 .profile-head{
     position: absolute;
     margin-top: 55%;
-    padding: 10px;
     font-size: 20px;
+    padding: 0 16px;
+}
+.profile-head p{
+    font-size: 30px;
 }
 .profile-head-content{
-    /* border: 2px solid black; */
     padding: 5px 0px;
 }
 .profile-head-content p{
     color: #757575;
-    /* border: 2px solid black; */
-    padding: 5px 10px;
+    padding: 10px 0;
 }
 .profile-head-content p i{
     color: #009688;
-    /* border: 2px solid black; */
-    padding: 0 10px;
+    padding-right: 10px;
 }
 .profile-container hr{
     opacity: 0.2;
@@ -54,16 +60,16 @@
 
   /* skill section start here */
  .skill-section {
-    padding: 10px 5px;
-    /* border: 2px solid red; */
+    margin: 15px 0;
 }
 
 .skill-section h2 {
     color: #757575;
-    margin-bottom: 15px;
+  
 }
 .skill-section i{
     color: #009688;
+    padding-right: 10px;
 }
 
 .skill-section p {
@@ -93,14 +99,12 @@
     text-align: center;
     border-radius: 10px 10px;
 }
-
 .skill-75 {
     width: 75%;
     color: white;
     background-color: #009688;
     text-align: center;
     border-radius: 10px 10px;
-
 }
 .skill-50{
     width: 50%;
@@ -114,20 +118,20 @@
 /* language start here */
 
 .language-section {
-    padding: 10px 5px;
-    /* border: 2px solid red; */
+    margin-top: 30px;
 }
 
 .language-section h2 {
     color: #757575;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 .language-section i{
     color: #009688;
+    margin-right: 10px;
 }
 
 .language-section p {
-    padding: 10px 0;
+    padding: 15px 0;
     color: #757575;
     width: 100%;
     text-align: justify;
@@ -135,15 +139,14 @@
 
 .language-conatiner {
     background-color: #f1f1f1;
-    border-radius: 16px;
+    border-radius: 16px;    
 }
- 
  .language-100 {
-    /* width: %; */
     color:#009688;
     background-color: #009688;
     text-align: center;
-    border-radius: 10px 10px;
+    border-radius: 15px 15px;
+    padding: 3px 0;
 } 
 
 .language-55{
@@ -151,7 +154,8 @@
     color: #009688;
     background-color: #009688;
     text-align: center;
-    border-radius: 10px 10px;
+    border-radius: 15px 15px;
+    padding: 3px 0;
 }
 
 .language-25 {
@@ -159,7 +163,8 @@
     color: #009688;
     background-color: #009688;
     text-align: center;
-    border-radius: 10px 10px;
+    border-radius: 15px 15px;
+    padding: 3px 0;
 }
 /* language end here */
 
@@ -168,7 +173,11 @@
 .main-conatiner-right{
     width: 70%;
     margin: 16px 0px;
-    /* background-color: green; */
+}
+.workexperience-conatiner{
+    padding-bottom: 40px;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
 .workexperience-conatiner-head{
     padding:  20px;
@@ -179,7 +188,6 @@
 }
 .workexperience-conatiner-head i{
     color: #009688;
-    /* padding: 0 10px; */
 }
 .workexperience-conatiner-content{
     padding: 0px 15px ;
@@ -189,11 +197,9 @@
     padding:0 15px ;
     color: #757575;
     font-size: 20px;
-
 }
 .workexperience-conatiner-content i{
     padding: 10px 15px ;
-    /* margin-top: 10px; */
 }
 .workexperience-conatiner-content button {
     background-color: #009688;
@@ -206,7 +212,6 @@
 
 .workexperience-conatiner-content h3{
     padding: 10px 0 ;
-    /* margin-top: 10px; */
     color: #009688;
 }
 .workexperience-conatiner-content p{
@@ -223,7 +228,9 @@
 
 .education-container{
     margin-top: 20px;
-    /* background-color: blue; */
+    background-color: white;
+    padding-bottom: 40px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
 .education-container-head{
     padding:  20px;
@@ -244,7 +251,6 @@
 }
 .education-container-content i{
     padding: 10px 15px ;
-    /* margin-top: 10px; */
 }
 
 .education-container-content h3{
@@ -252,8 +258,7 @@
     color: #009688;
 }
 .education-container-content p{
-    padding: 0 15px ;
-    
+    padding: 0 15px ;   
 }
 .education-container-content hr{
     margin-top: 20px;
